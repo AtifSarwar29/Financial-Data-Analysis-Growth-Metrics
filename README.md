@@ -2,6 +2,8 @@
 
 I developed a Python script to process your JSON data into a CSV file. The script merges daily stock price data (e.g., open, close, adjClose, volume, unadjustedVolume, change, changePercent, vwap, label, changeOverTime) with financial metrics (e.g., growthTotalLiabilities, growthNetDebt) by matching date and symbol. It converts quarterly periods like 2023-Q3 into date ranges (e.g., July 1 to September 30) to map financial data to daily records. I added two new columns not in the JSON: calendarYear (extracted from the date) and period (formatted as "September 28, 23" for readability). The final CSV combines all data into a single row per date and symbol, ready for analysis.
 
+![CSV Demostration ](CSVDemo.png)
+
 # Rating Criteria
 
 ## Is the Data Properly Organized?
